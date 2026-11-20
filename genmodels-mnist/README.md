@@ -26,7 +26,7 @@ Test rapide du code sans télécharger MNIST : `python train.py --method flow --
 
 | Méthode | Loss finale | Pas d'échantillonnage | Temps de génération |
 |---|---|---|---|
-| Flow matching | | 50 | |
+| Flow matching | 0.1833 | 50 | 400 sec |
 | DDPM | | 1000 | |
 
 Effet du nombre de pas (flow matching) : `outputs/flow/gen_*steps.png`.
